@@ -8,3 +8,6 @@ edition = "2018"
 [dependencies]
 rocket = "0.4.10"
 totp-rs = "~0.6"
+postgres = { version = "0.19.1", features = ["with-chrono-0_4", "with-uuid-0_8"] }
+chrono = "0.4.19"
+uuid = "0.8.2"
