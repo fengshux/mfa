@@ -1,0 +1,15 @@
+* MFA firefox adds-on 
+** 说明
+   - 很多网站需要mfa登录，通常mfa code生成在第三方设备上，例如手机
+     很不方便。做成firefox adds-on 可以直接自动填入
+     
+** route map   
+   - [ ] 建立用户 secret表
+   - [ ] 根据domian 获取mfa code
+   - [ ] 增加domian mfa
+   - [ ] 火狐第三方登录
+     - [ ] 前端页面
+     - [ ] 后端逻辑
+   - [ ] jwt 登录状态
+   - [ ] adds-on 
+
